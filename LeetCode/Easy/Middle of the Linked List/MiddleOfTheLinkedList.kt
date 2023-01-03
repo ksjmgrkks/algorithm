@@ -9,7 +9,7 @@
  */
 class Solution {
     fun middleNode(head: ListNode?): ListNode? {
-        //f-> fast
+           	//f-> fast
 		//s -> slow
     
 		//Example 1
@@ -23,7 +23,7 @@ class Solution {
 		//2. Stage   -> 1 -> 2 -> 3 -> 4 -> 5
 		//                        s
 		//result : 3 -> 4 -> 5
-        //        (s)
+                //        (s)
     
     
 		//Example 2
@@ -41,7 +41,7 @@ class Solution {
 		//3. Stage   -> 1  -> 2  -> 3  -> 4  -> 5 -> 6 -> NULL 
 		//                                s
 		//result : 4 -> 5 -> 6
-        //        (s)
+                //        (s)
         var fast = head
         var slow = head
 
