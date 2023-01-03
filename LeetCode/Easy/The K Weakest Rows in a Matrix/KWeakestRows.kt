@@ -11,20 +11,20 @@
             //key에 대한 오름차순으로 value가 리턴되기 때문에 아래와 같은 코드를 짤 수 있다.
             val sortedMap = sortedMapOf<Int, ArrayList<Int>>()
             for (i in mat.indices){
-                var ones = 0
+                var soldiers = 0
                 var j = 0
                 while (j < mat[i].size) {
-                    if (mat[i][j++] == 1) ones++
+                    if (mat[i][j++] == 1) soldiers++
                     else break
                 }
-                sortedMap.computeIfAbsent(ones) { ArrayList() }.add(i)
-                //1. ones = 1
+                sortedMap.computeIfAbsent(soldiers) { ArrayList() }.add(i)
+                //1. i=0, soldiers = 1
                 //   map = [1, [0]]
-                //2. ones = 4
+                //2. i=1, soldiers = 4
                 //   map = [1, [0]],[4, [1]]
-                //3. ones = 1
+                //3. i=2, soldiers = 1
                 //   map = [1, [0,2]],[4, [1]]
-                //4. ones = 1
+                //4. i=3, soldiers = 1
                 //   map = [1, [0,2,3]],[4, [1]]
             }
             var count = k //k=2
