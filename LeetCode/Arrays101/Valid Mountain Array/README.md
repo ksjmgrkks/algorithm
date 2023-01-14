@@ -1,6 +1,6 @@
 # [Easy] 941. Valid Mountain Array
 
-[문제 링크](https://leetcode.com/problems/valid-mountain-array/)
+[문제 링크](https://leetcode.com/problems/valid-mountain-array/description/)
 
 ### 성능 요약
 
