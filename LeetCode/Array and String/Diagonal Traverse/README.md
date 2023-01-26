@@ -1,4 +1,4 @@
-# [Easy] 498. Diagonal Traverse
+# [Medium] 498. Diagonal Traverse
 
 [문제 링크](https://leetcode.com/problems/diagonal-traverse/description/) 
 
