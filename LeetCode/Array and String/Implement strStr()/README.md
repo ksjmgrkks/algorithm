@@ -4,11 +4,11 @@
 
 ### 성능 요약
 
-메모리: , 시간: 
+메모리: 35.5 MB, 시간: 168 ms
 
 ### 분류
 
-String
+Two Pointers, String, String Matching
 
 ### 문제 설명
 
